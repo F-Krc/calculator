@@ -59,7 +59,7 @@ class Calculator {
         break;
 
       case 'rt':
-        this.result = this.num_1 ** (1/this.num_2);
+        this.result = Math.round(this.num_1 ** (1/this.num_2));
         break;
 
       case 'per':
